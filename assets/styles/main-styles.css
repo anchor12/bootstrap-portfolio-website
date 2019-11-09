@@ -9,6 +9,7 @@
     padding-left: 10px;
     padding-right: 10px;
     height: 62px;
+    border-bottom: #dddddd solid 2px;
      
     
 }
@@ -21,6 +22,12 @@ body {
 
 .nav-item.nav-link.active.links {
     color: #777777;
+}
+
+@media screen and (max-width: 576px) {
+#name {
+    margin-left: 0px;
+}
 }
 
    
