@@ -9,6 +9,7 @@
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./assets/styles/main-styles.css">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/contact-styles.css">
 
 </head>
 
@@ -20,7 +21,8 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
                 <!--ml-auto moves navbar links to the right -->
-                <a class="nav-item nav-link active links" href="./index.html">About<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link active links" href="./index.html">About<span
+                        class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link active links" href="./portfolio.html">Portfolio</a>
                 <a class="nav-item nav-link active links" href="./contact.html">Contact</a>
 
@@ -30,19 +32,30 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-1"></div>
-            <div class="col-lg-10 pr-5 pl-5 mb-100" id="content">
+            <div class="col-lg-10 pr-5 pl-5" id="content">
                 <div class="row">
                     <div class="col-lg-12 mt-4 mb-50">
-                        <h1 class="about-me">About me</h1>
+                        <h1 class="about-me">Contact</h1>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-12">
-                            <img id="about-me-photo" src="./assets/images/about-me-photo.jpg" align="left">
-                        <p>My name is Natalie and I am a Full Stack Web Development student. I graduated from a
-                            Mathematics degree in 2016 from the University of Sydney, and after working in the data
-                            science field for 3 years, decided that the world of coding was where I truly belong!</p>
+                        <form>
+                            <div class="form-group">
+                                <label for="name-input">Name:</label>
+                                <input type="name" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="email-input">Email address:</label>
+                                <input type="email" class="form-control" >
+                            </div>
 
+                            <div class="form-group">
+                                <label for="message-input">Message:</label>
+                                <textarea class="form-control" rows="5"></textarea>
+                            </div>
+                        </form>
+                        <button type="button" class="btn btn-info">Submit</button>
                     </div>
                 </div>
 
@@ -51,7 +64,7 @@
             <div class="col-lg-1"></div>
         </div>
         <div class="container">
-                <footer class="fixed-bottom text-center mt-10">Copyright</footer>
+            <footer class="fixed-bottom text-center mt-10">Copyright</footer>
         </div>
     </div>
 </body>
