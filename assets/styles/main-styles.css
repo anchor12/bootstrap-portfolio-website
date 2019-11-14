@@ -23,9 +23,24 @@ body {
     color: #777777;
 }
 
+
+
 #content {
+    border: 2px #dddddd solid;
     margin-top: 60px;
-    background-color: pink;
+    background-color: white;
+}
+
+.about-me {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size:2.2em;
+    font-weight: bold;
+    
+    /*margin-left: 5%;
+    margin-right: 5%;
+    */
+    border-bottom: 2px solid #cccccc;
 }
 
 @media screen and (max-width: 576px) {
