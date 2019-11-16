@@ -70,7 +70,13 @@ footer {
 @media screen and (max-width: 576px) {
 #name {
     margin-left: 0px;
+  
+}
+.navbar {
+    padding: 0px;
 }
 }
+
+
 
    
