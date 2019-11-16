@@ -7,3 +7,18 @@ button {
     font-size: 1.2em !important;
     
 }
+
+@media screen and (max-width: 500px) {
+    .about-me {
+        font-size: 2.3em;
+    }
+    form {
+        font-size: 1.4em;
+    }
+
+    button {
+        width: 150px;
+        height: 70px;
+       font-size: 1.9em !important;
+    }
+}

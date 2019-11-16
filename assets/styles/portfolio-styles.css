@@ -16,3 +16,27 @@
     padding-bottom: 40px;
 }
 
+@media screen and (max-width: 500px) {
+    .about-me {
+        font-size: 2.3em;
+    }
+.img-container>img {
+
+    width: 75vw !important;
+}
+
+.tag { 
+    
+    position: relative;
+    top: 70%;
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 1.9em;
+    text-align: center;
+    width: 75vw;
+    
+
+}
+}
+
